@@ -13,3 +13,6 @@
 
 // Include common definitions from above.
 apply from: '../build.common.gradle'
+dependencies {
+    implementation 'com.acmerobotics.dashboard:dashboard:0.2.3'
+}
