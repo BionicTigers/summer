@@ -14,5 +14,6 @@
 // Include common definitions from above.
 apply from: '../build.common.gradle'
 dependencies {
+    implementation 'com.acmerobotics.roadrunner:core:0.4.2'
     implementation 'com.acmerobotics.dashboard:dashboard:0.2.3'
 }
